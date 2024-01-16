@@ -1,0 +1,77 @@
+.input-grid{
+  display: grid;
+  grid-template-columns: 200px 150px 150px;
+  column-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.list-grid{
+  display: grid;
+  grid-template-columns: 200px 150px 150px;
+  row-gap: 30px;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.input{
+  padding: 10px 50px 10px 6px;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.add{
+  margin-bottom: 1px;
+  margin-top: 1px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.add:active{
+  margin-left: 2px;
+  margin-top: 2px;
+  box-shadow: none;
+}
+
+.date{
+  box-shadow:inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+}
+
+.add,
+.date,
+.input{
+  background-color: grey;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: arial;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete{
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: grey;
+  cursor: pointer;
+}
+.delete:active{
+  margin-left: 2px;
+  margin-top: 2px;
+  box-shadow: none;
+}
+
+.text{
+  font-family: arial;
+}
+
+
+body{
+  background-color: rgb(77, 77, 77);
+}
+::placeholder{
+  color: white;
+}
+
